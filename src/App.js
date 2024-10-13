@@ -66,26 +66,28 @@ function App() {
         <source src={video} type="video/mp4" />
       </video>
       {stateLoader && <LoaderPage />}
+
       <div className="Content">
-    
-      <h1>Nutrition Analysis</h1>
-      <form onSubmit={finalSearch}>
-        <input
-          placeholder="Enter ingredients, exp: 1 kiwi, 1 teaspoon chia..."
-          onChange={myRecipeSearch}
-          value={mySearch}
+        <h1>Nutrition Analysis</h1>
+
+        <form onSubmit={finalSearch}>
+          <input
+            placeholder="Enter ingredients, exp: 1 kiwi, 1 teaspoon chia..."
+            onChange={myRecipeSearch}
+            value={mySearch}
           />
+        
           <div className="Buttons">
             <button type="submit" className="neu-button" disabled={stateLoader}>Search</button>
             <button className="neu-button" onClick={() => {
               setMySearch("");
               setMyNutrition(null);
             }}>Clear</button>
-            </div>
-      </form>
+          </div>
+        </form>
       
-            <h2>Your ingredients: {mySearch} </h2>
-            <hr />
+        <h2>Your ingredients: {mySearch} </h2>
+        <hr />
         {
           myNutrition && <div className="TotalScore">
             <h3>Calories: {myNutrition.calories} kcal</h3>
@@ -94,8 +96,6 @@ function App() {
             <h3>Protein: {myNutrition.totalNutrients.PROCNT.quantity.toFixed(1)} g</h3>
           </div>
         }
-          
-          
         
         {
           myNutrition && Object.values(myNutrition.totalNutrients)
@@ -107,9 +107,8 @@ function App() {
                 key={label}
               />
             )
-          }
-          </div>
-          
+        }
+      </div>
     </div>
   );
 }

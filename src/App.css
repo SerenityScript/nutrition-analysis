@@ -50,6 +50,7 @@ input {
   padding: 14px 30px;
   transition: all 0.2s ease-in-out;
   border: 1px solid rgb(206, 206, 206);
+  font-family: "Open Sans", sans-serif;
 }
 
 .neu-button:hover {
@@ -81,11 +82,11 @@ hr {
 h1, h2, h3, p {
   color: #257180;
   text-shadow: 3px 0 20px #ffffff;
+  font-family: "Open Sans", sans-serif;
 }
 
 @media all and (max-width: 600px) {
   .Content {
-    
     width: 340px;
     padding: 20px;
     margin: 10px;

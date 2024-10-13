@@ -36,13 +36,12 @@ Try out the application here: [https://nutrition-analysis-serenityscript.netlify
 
 Stelle sicher, dass Node.js und npm installiert sind. Führe dann folgenden Befehl aus:
 
-
-Code kopieren
 npm install
 
-App starten:
+## App starten:
 
 npm start
+
 Die App wird normalerweise unter http://localhost:3000/ im Browser geöffnet.
 
 ## ⚙️ Verwendung
