@@ -1,70 +1,70 @@
-# Getting Started with Create React App
+# Nutrition Analysis App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Diese App ermöglicht die Analyse der Nährwerte von Zutaten. Benutzer können eine Liste von Zutaten eingeben und erhalten detaillierte Nährwertinformationen wie Kalorien, Kohlenhydrate, Fette und Proteine. Die App verwendet die [Edamam API](https://developer.edamam.com/edamam-nutrition-api) zur Nährwertanalyse.
 
-## Available Scripts
+## 🚀 Demo
 
-In the project directory, you can run:
+Try out the application here: [https://nutrition-analysis-serenityscript.netlify.app/](https://nutrition-analysis-serenityscript.netlify.app/)
 
-### `npm start`
+[![Nutrition Analysis](src/demo.png)](https://nutrition-analysis-serenityscript.netlify.app/)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 📋 Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Eingabe von Zutaten und Nährwertanalyse
+- Verwendung der [Edamam API](https://developer.edamam.com/edamam-nutrition-api)
+- Adaptive und responsive Benutzeroberfläche (unterstützt mobile Geräte)
+- Verwendung von Flexbox und Media Queries für responsives Design
+- Nutzt **SweetAlert2** für ansprechende Benachrichtigungen
+- Video-Hintergrund für visuelle Attraktivität
 
-### `npm test`
+## 🛠️ Technologien
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **React** (Hooks: useState, useEffect)
+- **CSS** für das Styling (inklusive Media Queries für Responsivität)
+- **SweetAlert2** für Benachrichtigungen
+- **Edamam Nutrition API** für die Nährwertanalyse
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 📦 Installation
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. **Repository klonen**:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+  - git clone git clone https://github.com/SerenityScript/nutrition-analysis.git
+  - cd nutrition-analysis-app
 
-### `npm run eject`
+## Abhängigkeiten installieren:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Stelle sicher, dass Node.js und npm installiert sind. Führe dann folgenden Befehl aus:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Code kopieren
+npm install
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+App starten:
 
-## Learn More
+npm start
+Die App wird normalerweise unter http://localhost:3000/ im Browser geöffnet.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## ⚙️ Verwendung
+Gib eine Liste von Zutaten im Textfeld ein (z. B. 1 Apfel, 1 Teelöffel Zucker).
+Klicke auf den "Search" Button, um die Nährwertanalyse zu starten.
+Die Nährwerte werden unterhalb des Eingabefeldes angezeigt.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 📱 Responsives Design
+Die App passt sich an verschiedene Bildschirmgrößen an und unterstützt sowohl mobile Geräte als auch Desktop-Bildschirme. Es wurden Flexbox und Media Queries verwendet, um sicherzustellen, dass die App auf unterschiedlichen Geräten optimal aussieht.
 
-### Code Splitting
+## 📄 Lizenz
+Dieses Projekt ist unter der MIT License lizenziert. Siehe die LICENSE-Datei für weitere Details.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 🔗 Nützliche Links
+* Recipe Search API: https://www.edamam.com/
+* React: https://reactjs.org/
+* Create React App: https://create-react-app.dev/
+* SweetAlert2 Dokumentation: https://sweetalert2.github.io/#usage/
 
-### Analyzing the Bundle Size
+## ✨ Mitwirkende
+Yulia Siebrandt - Projektentwicklung
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 📧 Kontakt
+Wenn du Fragen oder Vorschläge hast, melde dich gerne bei mir über [siebrandt.dev@gmail.com](mailto:siebrandt.dev@gmail.com)
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
